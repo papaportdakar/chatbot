@@ -1,0 +1,1669 @@
+version: "2.0"
+nlu:
+- intent: prevision
+  examples:  |
+    - LA GRANDE SIERRA LEONE
+    - Bonjour, je souhaite savoir la date d'arrivée du Navire GRANDE FRANCIA de chez MAERSK.
+    - Bateau good wood véhicule est arrivée ?
+    - Quand est-ce que le navire Good Wood serait au port de Lomé ?
+    - Le navire se rendra quand au Togo?
+    - je veux savoir comment es positionner notre navire DYNAMIC .M
+    - Traffic
+    - Services trafic
+    - NAVIRE GOODWOOD
+    - Heure daccostage navire sntt ?
+    - les navires en rade 
+    - Je veux les navire qui venu en rade le 08 octobre 2021
+    - Orient transit va accosté ken ?
+    - Orient transit va accoster quand ?
+    - Date d'arrivée de Orient transit
+    - Le batou de companies de MSC que vien de Englaterre est que il et arrive la port de Dakar?
+    - Salut sava je veux le bateau de anvers depart quelle jour arrive a dakar
+    - Heure d'accostage navire sntt ?
+    - Heure daccostage navire sntt ?
+    - Navire msc carla arrive au port de Dakar
+    - Navire msc carla quand il sera a dakar
+    - Quelle est la date d'arrivée du navire contenant des  voitures venant du canada vers le senegal?
+    - Les navires programmés à venir au mois de juillet 2021 au port de Dakar
+    - les navires programmés pour la semaine prochaine
+    - port autonome de dakar prevision trafic
+    - Les bateaux qui sont prévu pendant ces deux jours
+    - quelle est son heure d'entrée de port prévisionnelle
+    - entree navire NIKOLOAS
+    - Heure d'entrée navire NIKOLOAS
+    - quel est le prochain navire de ITS
+    - Date d'arrivée pour le navire
+    - est ce que silver moon est arrivé au port de dakar
+    - prevision
+    - prévision trafic
+    - prévisions des navires
+    - date d'arrivee des navires
+    - navires provenant de la belgique
+    - navires provenant de la france
+    - entree des naives
+    - les navires qui sont arrivées
+    - navires qui sont au poste à quai
+    - prevision des navires
+    - poste a quai
+    - départ navires
+    - départs navires
+    - Bonjour je voudrai savoir si le DONG A GLAUCOS est a quai Merci
+    - quels sont les navires qui doivent entrer aujourd'hui
+- intent: date_creation
+  examples:  |
+    - bibliographie
+    - bibliographie du port autonome de dakar
+    - je veux votre bibliographie
+    - la date de création du port
+    - date de creation de Port
+    - en quelle annee est crée le port
+    - en quelle annee le Port de Dakar a été créé 
+    - en quelle anne le port de dakar a ete cree
+    - Quelle est la date de création du port autonome de dakar
+    - historique du port
+    - date de creation du port
+    - en quelle année le port a été créee
+    - année de création du port
+    - anne de creation du Port 
+    - historique port Autonome de Dakar
+    - histoire du Port de Dakar
+    - historique du Port de Dakar
+    - donnez l'historique du port de Dakar 
+    - Je veux avoir des informations sur l'histoire du Port
+    - date de création
+    - date de creation du Port Autonome de Dakar 
+    - historique
+# - intent: tooltip
+#   examples:  |
+#     - je suis tooltip
+#     - tooltip
+#     - je suis le tooltip du chatbot
+#     - Aidez moi tooltip
+#     - tooltip start conversation
+#     - Saluer l'utilisateur
+- intent: port_ndayane
+  examples:  |
+    - port de ndayane
+    - ndayane
+    - port multinational de ndayane
+    - le plus grand port du senegal
+    - le nouveau port du senegal
+    - superficie du port de ndayane
+    - actualité sur ndayane
+    - informations sur le port de ndayane
+    - le nouveau port
+    - le dernier port du senegal
+    - le plus grand port du senegal
+    - Ndayan
+    - Ndayanne
+    - port autonome de ndayane
+- intent: demande_emploi
+  examples:  |
+    - je voudrai avoir un poste au service de réclamation ou à la gare maritime
+    - Je suis intéressé de votre service
+    - Je veux travail chez vous si c'est possible
+    - je suis une nouvelle diplômée en transport logistique spécialisée en transport ferroviaire
+    - Je veux travail chez vous si c'est possible
+    - C'est quoi l'adresse mail
+    - la quelle adresse mail
+    - L'adresse mail
+    - Pour avoir du travail dans les bateaux de pêche comment faire?
+    - je veux avoir votre adresse mail
+    - Qu’elle est l’adresse e-mail
+    - adresse mail pour demande d'emploi
+    - Quelle est l'adresse mail s'il vous plaît ?
+    - je veux avoir votre adresse mail
+    - Quelle est votre adresse mail
+    - Cc salut j'aimerai vraiment exercer au port autonome de dakar
+    - J'ai fais Commerce International l2. Quels sont les postes probables pour mon niveau
+    - Est ce que mon profil vous serez utile j'ai fais informatique de gestion et je suis en 2ème année
+    - cher assistant je voulais un eclaircissement sur comment faire pour avoir un emploi au port svp
+    - je veux postuler au niveau du département marketing
+    - je voulais obtenir un job au port autonome de Dakar
+    - Comment trouver un boulot au port autonome de Dakar
+    - je veux un job
+    - je suis titulaire d'un bac +2 en transport logistique
+    - comment faire pour etre un agent de service
+    - comment avoir un stage dans le domaine de la finance
+    - stage en finance
+    - j'aimerai faire un stage dans votre entreprise je suis étudiant en 3em année en 
+    - je viens de sollicité au près de vous par la présence de ma lettre de motivation
+    - soudeur
+    - je souhaite rejoindre votre equipe de par ma qualité de chauffeur et des services sanitaires
+    - je suis en cours de formation en premiere année
+    - j'ai besoin d'un travail pour aider ma famille
+    - accodez vous de stage 
+    - email DRH
+    - Directeur des Ressources humaines du Port
+    - travailleur journalier
+    - Je suis au chomage je cherche du boulot
+    - Je veux postuler en tant que dans l'une de vos services
+    - centre de formation métier
+    - je veux postuler pour un emploi j'ai le Bac, le BFEM et le CFEE
+    - candidature spontanee
+    - je cherche une nouvelle opportunité professionnelle
+    - opportunite professionnelle
+    - je viens au près de votre haute bienveillance solliciter un travail en qualité de technicien
+    - Je suis technicien je cherche du travail
+    - je suis technicien en support réseau
+    - Comment faire pour postuler pour le poste de responsable facture
+    - poste de responsable facture
+    - Je cherche un stage en géomatique
+    - stage en gestion
+    - comment faire pour travailler dans votre entreprise 
+    - je veux déposer mon CV dans votre entreprise
+    - je voulais déposer une demande de stage
+    - je suis titulaire d'un diplome informatique
+    - je veux postuler pour un poste
+    - je veux un travail au port
+    - comment postuler pour un poste au Port
+    - je veux postuler pour un stage
+    - Je suis un conducteur d'engins
+    - je suis un chauffeur
+    - bonjour je suis informaticien
+    - je suis un gestionnaire
+    - je suis un comptable
+    - stage en data science
+    - Je suis data scientist, je cherche un emploi en data science
+    - Stage en Big Data
+    - Emploi au port de Dakar 
+    - Embauchement au Port 
+    - Recrutement au Port
+    - Comment devenir employé au Port
+    - comment etre recruter au port
+    - obtenir un emploi au Port
+    - Recrutement Port de Dakar
+    - Recrutement
+    - Bonjour je m'appelle Tidjane, je suis etudiant et je veux franchement travailler au Port
+    - Je veux franchement travailler au Port
+    - Je suis étudiant et je cherche un emploi
+    - je suis étudiant et je veux travailler au Port de Dakar
+    - emploi 
+    - je m'appelle cheikh abdoulahat je cherche du travail
+    - mon nom est Demba je cherche du travail au port
+    - comment travailler au port
+    - Bonjour on est etudiant et on veut vraiment obtenir un stage au Port
+    - demande d'emploi
+    - demande emploi
+    - Embauchement
+    - embauchement
+    - offre d'emploi 
+    - offre emploi au Port de Dakar
+    - je veux travailler au port
+    - comment etre employe au Port de dakar
+    - Comment devenir un emploi du Port
+    - travail au Port
+    - travailler au Port 
+    - je cherche du travail au port
+    - offre de stage
+    - comment effectuer un stage au port 
+    - stage 
+    - demande de stage au port
+    - je veux faire mon stage au port
+    - est ce qu il y a des stages disponibles au port
+    - demande de stage
+    - stagiaires du port
+    - Comment obtenir un contrat de travail au Port
+    - Comment obtenir un CDI au Port
+    - Comment obtenir un CDD
+    - Comment obtenir un contrat de travail à duree interminee
+    - Comment obtenir un contrat de travail a durée détermine
+    - contrat a duree determinee
+    - je voudrais déposer une candidature spontanée
+    - candidature spontanee
+    - je viens par cette présente postuler ma candidature pour le poste d'assistant de direction 
+    - je suis assistant de direction
+    - CDD
+    - CDI
+    - devenir stagiaire au port
+    - stagiaire au port
+    - depot de CV
+    - ou deposer son CV au Port
+    - Bonjour j ai mon diplome en transite informatique
+    - bonjour j'ai mon diplome en gestion comptable
+    - bonjour je suis à la rechere d'un stage
+    - j'aimerais déposer ma candidature pour un poste de magasinier
+    - postuler pour un travail au port
+    - postuler pour un poste de magasinier
+    - stage master 2
+    - stage licence 3
+    - Je suis titulaire d'un BAC. je cherche un emploi
+    - Salut je suis étudiant diplomée d'un BTS transit. Je suis à la recherche de stage
+    - Je suis titulaire d'un BTS
+    - BTS comptable
+    - je suis informaticien et je cherche un stage
+    - BTS en comptabilité
+    - stage en comptabilité
+- intent: convention_partenariat
+  examples: |
+    - Comment signer un convention de partenariat?
+    - convention de partenariat?
+    - je cherche un partenariat
+    - Quelle est la procédure pour la signature d'une conevention de partenriat?
+    - procédure d'une conevention de partenriat?
+    - Je veux obtenir une convention  de partenariat avec le Port de Dakar
+    - Comment avoir une convention de partenariat?
+    - Quels sont les documents à fournir pour la signature d'une convention de partenariat?
+    - Documents pour convention de partenariat
+    - Quels sont les documents à  fournir pour parapher une convention  de partenriat?
+    - Comment parapher une convention de partenariat avec le Port
+    - Liste des pièces à fournir pour la signature d'une convention de partenariat
+    - Liste des pièces à fournir pour une convention de partenariat
+    - Que dois-je faire pour établir une convention de partenariat?
+    - Quelles sont les conditions à remplir  pour signer une convention de partenriat?
+    - Que dois-je faire pour finaliser une convention de partenariat?
+    - Comment obtenir une convention de partenariat?
+    - Quelle est la démarche pour obtenir une convention de partenariat?
+    - démarche pour convention de partenariat
+    - Que dois-je faire pour signer une convention de partenariat?
+    - Comment nouer une convention de partenariat?
+    - Quelle est la procédure pour obtenir un acte de partenriat?
+    - acte de partenariat
+    - signature d'un acte de partenariat
+    - parapher un acte de partenariat
+    - conditions à remplir  pour signer un contrat de partenriat?
+    - Que dois-je faire pour finaliser un contrat de partenariat?
+    - Comment avoir un acte de partenariat?
+    - Partenariat
+    - entente sous forme de partenariat?
+    - Entente
+    - Quelles sont les pièces à fournir pour la signature d'une entente sous forme de Coopération Internationale?
+    - une entente sous forme de Coopération Internationale?
+    - Comment élaborer un MOU avec le PAD?
+    - Quelle est la démarche pour obtenir une entente sous forme de Coopération Internationale?
+    - MOU
+    - MOU avec le Port de Dakar
+    - Que dois-je faire pour signer un MOU?
+    - signature d'un MOU
+    - protocole de partenariat?
+    - protocole de partenariat au PAD
+    - Comment nouer un protocole de partenariat?
+    - Coopération Internationale?
+    - Coopération Internationale avec le Port de Dakar
+    - protocole de Coopération Internationale?
+    - coorperation internationale
+    - Que dois-je faire pour finaliser un protocole de Coopération Internationale?
+    - Quelles sont les conditions à remplir  pour une collaboration sour forme de Coopération Internationale?
+    - Comment nouer un accord de Coopération Internationale?
+    - Quelles sont les pièces à fournir pour la signature d'une convention de Coopération Internationale?
+    - Quelles sont les piece a fournir pour la signature d une convention
+    - Signature d une convention
+- intent: accord_partenariat
+  examples: |
+    - Comment signer un acccord de partenariat?
+    - acccord de partenariat
+    - Quelle est la procédure pour obtenir un accord de partenriat?
+    - Je veux obtenir un accord de partenariat avec le Port de Dakar
+    - Comment avoir un accord de partenariat?
+    - Je veux obtenir une charte de jumelage avec le Port de Dakar
+    - Quelle est la procédure pour la signature d'un accord de partenariat?
+    - Quels sont les documents à fournir pour la signature d'un accord de partenariat?
+    - Quels sont les documents à  fournir pour parapher un accord de partenriat?
+    - Liste des pièces à fournir pour la signature d'un accord de partenariat
+    - Liste des pièces à fournir pour un accord de partenariat
+    - Que dois-je faire pour contracter un accord de partenariat?
+    - Quelles sont les conditions à remplir  pour signer un accord de partenriat?
+    - Quelles sont les conditions à remplir pour etre partenaire?
+    - Que dois-je faire pour finaliser un accord de partenariat?
+    - Que dois-je faire pour parapher un accord de partenariat?
+    - Quelle est la démarche pour obtenir un accord de partenariat?
+    - Quelles sont les pièces à fournir pour la signature d'un accord de partenariat?
+    - Que dois-je faire pour signer un accord de partenariat?
+    - Comment nouer un partenariat?
+    - Comment devenir partenaire du Port
+    - Partenariat du Port de Dakar
+    - Quelle est la procédure pour obtenir un collaboration de partenriat?
+    - collaboration de partenariat
+    - procédure pour entamer une collaboation sous forme de partenariat?
+    - collaboration
+    - pour obtenir un contrat de partenriat?
+    - contrat de partenriat?
+    - Je veux obtenir un  contrat de partenariat avec le Port de Dakar
+    - contrat de partenariat au Port Autonome de Dakar
+    - Comment parapher un contrat de partenariat
+    - Comment signer un convention de jumelage?
+    - jumelage avec le Port Autonome de Dakar
+    - Jumelage
+    - convention  de jumelage avec le Port de Dakar
+    - convention  de jumelage
+    - Comment signer un contrat de jumelage?
+    - contrat de jumelage
+    - obtenir un contrat de jumelage ?
+    - Comment signer charte d'amitié?
+    - charte de jumelage?
+    - Quelles sont les conditions à remplir  pour signer une charte de jumelage?
+    - charte d'amitié?
+    - Comment devinir ami avec le Port de Dakar
+    - Ami avec le Port de Dakar
+    - Quelle est la procédure pour la signature d'une charte d'amitié ?
+    - Quels sont les documents à  fournir pour parapher une charte d'amitié?
+    - Que dois-je faire pour signer une charte d'amitié?
+- intent: greet
+  examples: |
+    - CC
+    - comment t'aller vous ?
+    - coucou 
+    - bonjour je m'appelle 
+    - salut cv
+    - salut ça va
+    - ça va mon ami
+    - ça va?
+    - Hey, comment vas tu?
+    - hey
+    - comment vous allez ?
+    - comment allez-vous ?
+    - hello
+    - hi
+    - salam
+    - Bonjour comment vous allez?
+    - Bonsoir j'espère que tu vas bien?
+    - Bonjour Monsieur l'assistance du Port Autonome de Dakar
+    - coucou
+    - Bonjour
+    - Bonsoir
+    - Salut
+    - slt
+    - bsr
+    - bjr
+    - Slt
+    - salut
+- intent: goodbye
+  examples: |
+    - ok
+    - Ciao ciao
+    - Bonne journée
+    - bonne journee
+    - Bonne soirée
+    - bonne soiree
+    - Au revoir
+    - bye baye
+    - good by
+    - A plus
+    - A la prochaine
+    - Ok bonne nuit
+    - bye bye
+    - cool
+    - bye
+    - ok a tout de suite 
+    - ok a tout a l'heure
+    - je le ferais tout de suite
+    - je vais le faire
+    - goodbye
+    - have a nice day
+    - see you around
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - super bien
+    - oui alhamdoulilah
+    - Je me sens comme un roi
+    - Je suis en bonne forme
+    - Je me sens très bien
+    - Je vais bien
+    - Je vais très bien
+    - Je suis très à l'aise
+    - extremement bien
+    - Je suis très en forme
+    - Très bien
+    - tres bien
+    - Très heureux
+    - Je suis content
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: manifest
+  examples: |
+    - manisfestion d'intérêt
+    - manifestion d interet 
+    - comment obtenir le formulaire de la manifestion d interet
+    - Comment obtenir le formulaire de la manifestion d'intérêt
+    - Remplissage du formulaire de la manisfestion d'intérêt du port autonome de Dakar
+    - Je veux me renseigner sur la manifestion d'intérêt du port
+    - Des renseignement sur la manifestion d'intérêt du port de dakar.
+    - Je veux des informations concernant la manifestion d'intérêt du port
+    - Donnez-moi des renseignements sur la manifestion d'intérêt
+    - Je veux recevoir les informations à fournir pour le formulaire de la manifestion d'intérêt du port
+    - Comment avoir des informations sur la manifestion du port
+    - Où est ce que je peux trouver des informations sur la manifestion du port
+    - formulaire pour les professions de transitaire
+- intent: agrement
+  examples: |
+    - j'aimerais envoyer une demande d'agrément
+    - agrément prestataire de services
+    - Bonjour je voudrai déposer une demande d'agrément
+    - Agrément pour transport de camion
+    - Je voulais savoir quels sont les dossiers à fournir pour un agrement de manutention et de consignations
+    - agrement de conteneur
+    - Agrément et autorisation d’exercer
+    - agrement et autorisation d exercer
+    - Comment obtenir un agrément?
+    - je veux deposer une lettre d agrement
+    - comment faire pour avoir un agrement au port autonome de Dakar
+    - cmt faire pour obtenir un agrément au port de dakar
+    - ou deposer une demande d'agrémént
+    - depot d'agrément
+    - ou deposer une demande d agrement 
+    - dossier agrement
+    - deposer un dossier pour un agrement
+    - autorisation exercer
+    - comment avoir une autorisation d'exercer au port?
+    - Agrément
+    - agrement
+    - autorisation 
+    - obtnir un agrément au Port
+    - obtenir un agrement au port
+    - Je veux obtenir un agrément au port autonome de dakar
+    - Je veux obtenir une autorisation au port autonome de dakar
+    - obtention agrément
+    - obtention agrement
+    - je veux obtenir un agrement au port autonome de dakar
+    - Agrément et autorisation
+    - comment obtenir une autorisation
+- intent: formalite_domaniale
+  examples: |
+    - Quelles sont les formalités requises pour l’obtention d’une autorisation d’occupation domaniale?
+    - formalités requises pour l’obtention d’une autorisation d’occupation domaniale?
+    - autorisation d’occupation domaniale
+    - occupation domaniale
+    - occupation de domaine au Port
+    - occupation de domaine au Port autonome de Dakar
+    - formalités pour occuper un domaine
+    - formalités pour avoir l'autorisation d'occuper un domaine du Port
+    - domaine Port
+    - obtenir un domaine au Port
+    - occuper un domaine du Port
+- intent: type_agrement
+  examples: |
+    - Quels sont les différents agréments que l’on peut obtenir au port de Dakar?
+    - Quels sont les types d'agréments?
+    - quels sont les type d'agrement?
+    - types d'agrement disponibles
+    - les différents agréments
+    - differents agrement
+    - les différents agréments du Port
+    - les differents agrement
+    - types agréments
+    - types agrements
+    - les agréments du Port
+    - agrement du port
+    - les agréments existant au Port de Dakar
+- intent: condition_agrement
+  examples: |
+    - Quelles sont les conditions à remplir pour l’obtention d’un agrément?
+    - conditions à remplir pour l’obtention d’un agrément
+    - conditions a remplir pour l obtention d un agrement
+    - Quelles sont les conditions pour obtenir un agrément?
+    - les conditions pour les agréments
+    - Conditions pour obtention d'agrément
+    - condition pour obtention d'agrement
+    - les obligations pour les agréments
+    - les obligations pour les agrements
+    - obligations pour les agrement
+    - Obligations pour obtenir un agrément
+    - obligation pour obtenir un agrement
+    - Quelles sont les obligations à respecter pour l’obtention d’un agrément?
+    - quelles sont les obligations a respecter pour l obtention d un agrement ?
+    - Conditions pour obtention d'agrément au Port
+- intent: liste_piece
+  examples: |
+    - Comment obtenir la liste des pièces à fournir pour les agréments?
+    - liste des pièces à fournir pour les agréments?
+    - liste des pieces a fournir pour les agrements 
+    - Pièces à fournir pour les agréments
+    - Pièces à fournir
+    - piece a fournir
+    - pieces a fournir
+    - Quelles sont les pièces à fournir pour obtenir un agrément?
+    - Quelles sont les pièces à fournir
+    - Je veux obtenir des informations sur les pièces à fournir
+    - liste des pièces à fournir
+    - liste des pièces
+    - liste des piece
+- intent: duree_liste
+  examples: |
+    - Quelle est la durée de validité de ces agréments?
+    - Durée de validité d'un agréments
+    - Durée de validité
+    - duree de validite 
+    - Durée des agréments
+    - duree des agrements
+    - Quelle est la validité des agréments
+    - Durée des agréments pour le transport
+    - Durée des agréments pour la manutention
+    - Quelle est la durée de validité de l’autorisation ?
+    - quelle est la duree de validite de l autorisation
+    - Quelle est la durée de validité de l’autorisation pour exercer au bord des navires?
+- intent: commission
+  examples: |
+    - Qui valide le dossier de demande d’agrément? 
+    - Quelle est la comission qui examine le dossier?
+    - Qui valide le dossier de demande d’agrément?
+    - Quelle est la comission qui valide le dossier?
+    - Quels sont les membres de cette commission?
+    - les membres de la commission
+    - Quelle est la fréquence de tenue de  la commission consultative portuaire?
+    - commission consultative portuaire
+    - validation d'un agrément 
+    - validation d un agrement
+    - validation d'un agrément
+    - validation d un agrement
+    - Commission de validation d'agréments
+    - commission de validation d un agrement
+- intent: suivi_agrement
+  examples: |
+    - Comment connaitre la suite qui a été donnée au dossier déposé?
+    - Comment connaitre la suite qui a ete donnee au dossier depose
+    - Comment connaitre la suite du dossier déposé
+    - comment connaitre la suite du dossier depose 
+    - Suite du dossier déposé
+    - suite du dossier depose
+    - Comment connaitre la suite qui a ete donnee au dossier depose
+    - Comment obtenir des informations sur la suite du dossier?
+    - Au cas où le dossier déposé est valide quand est-ce qu’on pourra disposer de l’agrément?
+    - quand est-ce qu’on pourra disposer de l’agrément?
+    - quand est-ce qu’on obtiendra l'agrément?
+    - La date d'obtention d'agrément
+    - comment suivre son dossier d'agrément
+    - comment suivre son dossier d agrement
+    - suivi dossier d'agrément
+    - suivi agrement 
+- intent: exigence
+  examples: |
+    - Quelles sont les exigences soumises à une société titulaire d’un agrément?
+    - Exigences soumises à une société titulaire d’un agrément
+    - Les normes pour une société titulaire d’un agrément
+    - les conditions à respecter une société titulaire d’un agrément
+    - les obligations pour une société titulaire d’un agrément
+    - exigences pour agréments
+    - exigence pour agrement
+    - les normes à respecter
+    - norme a respecter
+    - normes des agréments vis-à-vis du Port
+    - norme des agrements vis a vis du port
+- intent: chiffre_affaire
+  examples: |
+    - Comment fait-on une déclaration de chiffre d’affaire?
+    - déclaration de chiffre d’affaire
+    - declarer son chiffre d affaire
+    - comment déclarer son CA
+    - declarer son CA
+    - déclaration de CA
+    - Comment fait-on une déclaration de CA?
+    - comment fait on une declaration du CA
+    - Comment obtenir le formulaire de déclaration de chiffre d'affaire?
+    - Comment obtenir le formulaire de déclaration de CA?
+    - formulaire de déclaration de CA?
+    - formulaire de declaration de chiffre affaire
+    - formulaire de déclaration de déclaration de chiffre d'affaire?
+- intent: autorisation_navire
+  examples: |
+    - Comment faire pour obtenir une autorisation d’exercer à bord de navires?
+    - exercer à bord de navires?
+    - Comment obtenir un autorisation d'exercer à bord de navires?
+    - autorisation d’exercer à bord de navires
+    - comment faire pour obtenir une autorisation d’exercer à bord de navires à bord des navires?
+    - demande d' autorisation pour exercer à bord de navires
+    - demande pour excercer au bord des navires
+    - Quel est le montant qu’il faut verser au niveau du port pour l’obtention de cette autorisation?
+    - Montant à verser pour avoir l'autorisation d'exercer au bord des navires
+    - Quelle est la caution pour obtenir une autorisation d'exercer au bord des navires?
+    - Montant de la caution
+    - Comment faire pour déposer cette caution?
+    - Comment déposer la caution
+    - Comment deposer la caution
+    - depot de la caution
+- intent: activite_navire
+  examples: |
+    - Quelles sont les activités autorisées?
+    - quelles sont les activites autorises ?
+    - Quelles sont les activités autorisées au bord des navires?
+    - activités au bord des navires
+    - activites au bord des navires
+    - activités autorisées au bord des navires
+    - activités des navires
+    - activites des navires
+    - les activités qu'on peut exercer au bord des navires
+    - activités exercées au bord des navires
+    - exercices au bord des navires
+- intent: restitution_caution
+  examples: |
+    - Comment faire une demande de restitution de caution?
+    - demande de restitution de caution
+    - restitution de caution
+    - Est-ce que la caution versée reste acquise au port en cas de cessation d’activité?
+    - caution en cas de cessation d'activités
+    - remboursement de la caution
+    - remboursement en cas de cessation d'activités
+    - demande de remboursement de la caution
+    - demande de remboursement
+    - remboursement
+- intent: chiffre_cle
+  examples: |
+    - Statistique des activités portuaires
+    - Le nombre de conteneurs débarqué en 2020
+    - J’aimerais savoir le pourcentage du à conteneur
+    - Le taux de conteneur enregistrés  est estimé à combien
+    - le nombre de navire accueilli par le port de dakar par an
+    - LE PORT ACCUEIL COMBIEN DE NAVIRE PAR AN
+    - statistiques su les déchargements au Port
+    - chiffres clés
+    - chiffre cles
+    - Les chiffres clés du port de dakar
+    - Quel est le trafic global du port?
+    - information sur le trafic global
+    - Nombre de trafic du port
+    - Le nombre total de débarquement
+    - Le nombre total d'embarquement
+    - quelle est la quantité de Transit
+    - trafic EVP
+    - information sur le trafic EVP
+    - EVP
+    - La quantité de trafic global du PAD
+    - Trafic vehicules
+    - embarquement
+    - Debarquement
+    - Les statistiques du port de dakar
+    - statistiques
+    - quantité de trafic global du port de dakar
+    - informations sur les statistiques du PAD
+- intent: renouvellement_autorisation
+  examples: |
+    - Comment faire pour renouveler l’autorisation d'exercer au bord des navires?
+    - Comment faire pour renouveler l’autorisation?
+    - Comment renouveler l’autorisation?
+    - renouvellement d'autorisation
+    - Quand est-ce-qu'on doit renouveler son autorisation
+    - informations sur le renouvellement de l'autorisation d'exercer au bord des navires
+- intent: cout_passage
+  examples: |
+    - Coût de passage
+    - Coût de passage des navires
+    - Coût de passage des navires pilotables
+    - Coût de passage des navires non-pilotables
+    - Quelles sont les redevances applicables aux navires?
+    - redevances applicables aux navires
+    - Quelles sont les redevances applicables aux navires non pilotables?
+    - redevances aux navires
+    - navires
+    - navires pilotables
+    - redevances aux navires pilotables
+    - redevances aux navires non pilotables
+- intent: gestion_client
+  examples: |
+    - QUEL EST LE TELEPHONE DU PORT
+    - je voulais votre contact svp
+    - votre contact
+    - Bonjour je voulais votre contact svp.
+    - je veux parler à un agent
+    - Je joindre au telephone à l'un de vos agents
+    - Comment vous joindre
+    - Ecoute client et prise en charge
+    - Gestion client
+    - Réclamation clients
+    - A qui s’adresser au port pour une réclamation?
+    - Personne à contacter pour les réclamations client
+    - réclamations
+    - préoccupations
+    - Service Clientèle
+    - Contact Service Clientèle
+    - Numero vert du port de Dakar
+    - Service Clientèle du Port
+    - Y- a-t-il un numéro vert au Port de Dakar? 
+    - numéro vert 
+    - relation client
+    - relations clients
+    - Y- a-t-il un numéro vert au Port de Dakar?
+    - Quelle est la meilleure façon de vous parler ?
+    - Contact service client
+    - meilleur facon de parler au port
+    - comment contacter le port
+    - reclamation
+    - service clientele
+    - numéro vert
+- intent: UserMerci
+  examples: |
+    - Ok
+    - Okay
+    - Dakors monsieur
+    - A bientôt
+    - Très bien merci
+    - Je suis disponible pour vous
+    - C'est gentille de votre part
+    - ok bien reçu merci et à très bientot
+    - D'accord j'y serai
+    - ok pas de quoi
+    - ok merci bonne fin de journée
+    - ok d'accord
+    - ok je vous envoye tout de suite
+    - ok je vais vous envoyer 
+    - je l'ai fait
+    - Je l'ai deja fait
+    - c'est fait
+    - D'accord
+    - ok merci
+    - D'accord j'y serais
+    - D'accord merci
+    - merci beaucoup pour votre compréhension
+    - Merci beaucoup
+    - Je vous remercie
+    - je le fait tout de suite
+    - Je vais l'envoyer tout de suite
+    - Merci pour votre aide
+    - Merci, c'est gentil
+    - c'est gentil
+    - C' est gentil
+    - Je vous remercie énormement
+    - Merci 
+    - Merci beaucoup 
+    - Je vous remercie 
+    - merci
+    - m6
+    - mrci beaucoup
+    - merci bcp
+    - je vous remercie pour votre reponse 
+    - mrci
+    - merci de m'avoir répondu
+    - merci pour votre réponse
+    - merci d'avoir pris le temps de nous répondre
+- intent: mauvaise_reponse
+  examples: |
+    - je ne suis pas satisfait
+    - mauvaise réponse
+    - pas bonne
+    - non répondu à ma question
+    - réponse un peu flou
+    - réponse flou
+    - réponse confuse
+    - Je ne comprend pas bien ta réponse
+    - réponse compliquée
+    - réponse non claire
+    - pas claire
+- intent: menu_principal
+  examples: |
+    - Menu
+    - menu principal
+    - Je veux le menu principal
+    - Affiche moi le menu principal
+    - Afficher le menu
+    - Donne moi le menu
+    - menu s'il vous plait
+    - Aller au menu
+    - Je veux voir le menu principal
+- intent: initialise
+  examples: |
+    - Commencer la conversation
+    - demarer
+    - debut de la conversation
+    - debutez la conversation
+    - conversation
+    - la conversation vient de demarer
+    - Commencer la discussion
+    - Je suis près
+    - allons-y
+- intent: out_of_scope
+  examples: |
+    - Qui est le directeur du port autonome de dakar
+    - Le nom du directeur de la DSI
+    - DSI port de dakar
+    - PAD
+    - Port autonome de Dakar
+    - directeur PAD
+    - directeur du Port
+    - DG
+    - directeur général du port
+    - DG PAD
+    - port
+    - le port
+    - port autonome de dakar
+    - port de dakar
+- intent: langue_fr
+  examples: |
+    - Je parle français.
+    - Je comprend bien le français
+    - français
+    - fr
+    - Je préfére parler français
+    - je suis francophone
+- intent: langue_eng
+  examples: |
+    - I speack english.
+    - I like english
+    - en
+    - anglais
+    - my favorite language is english
+    - I prefer english
+    - Do you speak english
+    - I don't understand french
+    - I know english only
+- intent: accessibilite
+  examples: |
+    - Accessibilité maritime du Port de Dakar
+    - Quelle est l'accessibilité maritime du PAD
+    - Comment acceder au Port de dakar
+    - Je veux avoir accès au bort de dakar
+    - informations pour accéder au Port de Dakar
+    - Accessibilité du Port
+    - Quelle est l'accessibilité maritime du Port Autonome de Dakar?
+- intent: localisation_geographique
+  examples: |
+    - Quelle est la localisation géographique du Port de Dakar?
+    - localisation géographique du port
+    - Donnez moi la localisation géographique
+    - localisation géographique
+    - localisation du Port
+    - localisation du Port de Dakar
+    - Quelle est la localisation du Port
+- intent: situation_geographique
+  examples: |
+    - ou se trouve le port de dakar
+    - Quelle est la situation géographique du Port de Dakar?
+    - situation géographique du port
+    - Donnez moi la situation géographique
+    - situation géographique
+    - Situation géographique du Port Autonome de Dakar
+    - Où se situe le Port de Dakar?
+- intent: accessibilite_navire
+  examples: |
+    - Quelles sont les conditions d’accessibilité des navires?
+    - conditions d’accessibilité des navires
+    - accessibilité des navires
+    - informations sur l'accessibilité des navires
+    - accessibilité des navires au port de dakar
+    - chenal
+    - Chenal du Port
+- intent: horaire_fonctionnement
+  examples: |
+    - Quels sont les horaires de fonctionnement du Port de Dakar?
+    - horaires de fonctionnement
+    - horaires de fonctionnement du Port de dakar
+    - horaires
+    - heures de travail
+    - heures de fonctionnement
+    - heures d'accessibilité des navires
+- intent: superficie_plan_eau
+  examples: |
+    - Quelle est la superficie du plan d’eau intérieur?
+    - superficie du plan
+    - Surface
+    - Surface plan d'eau
+    - superficie du plan intérieur
+    - surface du plan intérieur
+    - Je veux savoir la superficie du plan d'eau intérieur du Port
+    - informations sur la superficie du plan d'eau intérieur
+    - des renseignements sur la superficie du plan d'eau intérieur
+    - plan eau intérieur
+    - Quelle est la surface du plan d'eau intérieur
+- intent: profondeur_tirant_eau
+  examples: |
+    - Quelle est la profondeur du tirant d’eau au Port de Dakar?
+    - profondeur tirant eau
+    - informations sur la profondeur  du tirant d'eau du Port
+    - tirant d'eau du port de dakar
+    - des renseignements sur le tirant d'eau
+    - tirant d'eau
+- intent: infrastructure_capacite
+  examples: |
+    - Infrastructure et capacité d’accueil
+    - Quelle est la capacité d'accueil du port de Dakar
+    - capacite d accueil du port
+    - Quelles sont les Infrastructures du port de dakar
+    - des informations sur la capacité d'accueil
+    - des informations sur les Infrastructures du Port
+    - information sur les infrastructure du port
+    - Infrastructure
+    - capacité d'accueil
+- intent: installation_specialise
+  examples: |
+    - Il y a combien d’installations spécialisées au Port de Dakar?
+    - Quelles sont les installations spécialisées du Port de Dakar?
+    - Quel est le nombre d'installations spécialisées?
+    - installations spécialisées
+    - installation specialisee
+    - installations portuaires 
+    - installations
+    - installation
+    - installations portuaires
+    - nombre d'installations portuaires
+- intent: installation_paquebot
+  examples: |
+    - Est-ce que le Port de Dakar dispose d’une installation pour les bateaux de croisières?
+    - Est-ce que le Port de Dakar dispose d’une installation pour les paquebots
+    - installation pour les bateaux de croisières
+    - installation pour les paquebots
+    - bateaux de croisières
+    - paquebots
+    - Installation des paquebots au port de Dakar
+    - installation des bateaux croisières au Port de Dakar
+    - informations pour l'installation des bateaux croisières
+# - intent: poste_a_quai
+#   examples: |
+#     - Combien de postes à quai existent au Port de Dakar?
+#     - Quel es le nombre de postes à quai au Port de Dakar?
+#     - postes à quai
+#     - postes à quai disponible au port de dakar
+#     - le nombre de postes à quai disponibles
+#     - le nombre de postes à qui existants au port de Dakar
+#     - Inormations sur les postes à quai
+#     - postes à quai du port de Dakar
+#     - Postes à quai du Port
+#     - poste a quai
+#     - quaie 
+#     - quaie
+#     - QUAI
+- intent: terminaux
+  examples: |
+    - Quelle est la capacité d’accueil du Terminal roulier du Port de Dakar?
+    - capacité du terminal roulier
+    - capacite du terminal roulier
+    - terminal roulier
+    - terminal
+    - Quelle est la capacité d’accueil du Terminal à conteneurs du Port de Dakar?
+    - capacité du terminal à conteneurs
+    - terminal à conteneurs
+    - terminal a conteneur
+    - Quelle est la capacité d’accueil du Terminal vraquier du Port de Dakar?
+    - capacité du terminal vraquier
+    - terminal vraquier
+- intent: frigo
+  examples: |
+    - Y a-t-il une logistique adaptée pour les conteneurs frigorifiques (Reefer) ou produits à température dirigée (par exemple, les fruits et légumes)? "
+    - logistique adaptée pour les conteneurs frigorifiques
+    - Reefer
+    - logistique adaptée pour les produits à température dirigée
+    - les conteneurs frigorifiques au Port de Dakar
+    - Quelle est la lofistique du Port de Dakar pour les conteneurs frigorifiques?
+    - informations sur les conteneurs frigorifiques
+    - gestion des conteneurs frigorifiques
+    - conteneurs frigorifiques
+- intent: fluidite
+  examples: |
+    - Quelles sont les installations mises en place pour la fluidité du trafic?
+    - installations mises en place pour la fluidité du trafic
+    - fluidité du trafic
+    - fluidité du trafic du Port de Dakar
+    - informations sur la fluidité de Port
+    - fluidité du Port de Dakar
+    - fluidité
+    - fluidité du Port
+- intent: marchandise_transit
+  examples: |
+    - Marchandises en transit
+    - renseignements sur les marchandises en transit
+    - informations sur les marchandises en transit
+    - marchandises en transit Dakar-Mali
+    - transit Dakar-Mali
+- intent: entrepot_senegal_mali
+  examples: |
+    - Quelles sont les installations dédiées aux marchandises en transit au Port de Dakar vers le Mali?
+    - installations dédiées aux marchandises en transit
+    - installations dédiees aux marchandises en transit
+    - marchandises en transit au Port de Dakar vers le Mali
+    - transit Dakar vers Mali
+    - Quelles sont les entrepots pour les marchandises en transit entre le Mali et le Sénégal
+    - les entrepots pour les marchandises en transit
+    - EMASE
+    - ENSEMA
+- intent: acheminement_dakar_mali
+  examples: |
+    - Comment acheminer des marchandises à partir du Port de Dakar vers le Mali?
+    - Comment transporter des marchandises à partir du Port de Dakar vers le Mali?
+    - acheminer des marchandises de Dakar à Bamako
+    - acheminement de machandises de Sénégal à Mali
+    - acheminement de machandises de Senegal a Mali
+    - Transporter de marchandises à partir du Sénégal vers le Mali
+    - Informations sur le transport des marchandises entre le Sénégal et le Mali
+    - Informations sur le transport des machandises entre Dakar-Bamako
+    - transport des machandises entre Dakar-Bamako
+    - acheminement de marchandises
+- intent: stationnement_camion
+  examples: |
+    - Existe-il des aires de stationnement des camions sur le corridor Dakar-Bamako?
+    - stationnement des camions sur le corridor Dakar-Bamako
+    - aires de stationnement Dakar-Bamako
+    - stationnement Dakar-Bamako
+    - stationnement Dakar Bamako
+    - stationnemnt Sénégal-Mali
+    - stationnemnt Sénégal Mali
+    - stationnemnt Senegal Mali
+    - stationnement des camions entre le Sénégal et le Mali
+    - stationnement des camions entre Dakar et Bamako
+    - Ou se trouvent les stationnement entre Dakar et Bamako
+- intent: priorite_transit_mali
+  examples: |
+    - Quelles sont les facilités accordées aux marchandises en transit?
+    - facilités accordées aux marchandises en transit
+    - facilites accordees aux marchandises en transit
+    - facilités accordées aux navires effectuant des opérations commerciales pour le compte du Mali.
+    - Quelles sont facilités accordées aux navires effectuant des opérations commerciales pour le compte du Mali.
+    - Priorités des navires effectuant des opérations commerciales pour le compte du Mali.
+    - Avantages des marchandises en transit
+    - Avantages accordés aux marchandises en transit
+    - Avantages accordes aux marchandises en transit
+- intent: equipement_port
+  examples: |
+    - Equipements du Port de Dakar
+    - quels sont les équipements du Port de Dakar
+    - les équipements disponibles au Port de Dakar
+    - Les équipements de manutention
+    - Les equipements de manutention
+    - Les équipements de manutention au Port
+    - manutention au port
+    - Equipements du Port
+    - manutention
+- intent: manutention_conteneur
+  examples: |
+    - beaucoup plus d'informations sur la manutention portuaire
+    - Quels sont les équipements de manutention des conteneurs au Port de Dakar?
+    - Quels sont les équipements de manutention des conteneurs?
+    - équipements de manutention des conteneurs
+    - manutention des conteneurs
+    - Quelle est la cadence de manutention des conteneurs au Port de Dakar?
+    - Quelle est la cadence de manutention des conteneurs?
+    - cadence de manutention des conteneurs
+    - cadence de manutention
+- intent: manutention_vrac
+  examples: |
+    - Quelles sont les équipements de manutention des vrac solides au Port de Dakar?
+    - équipements de manutention des vrac solides au Port de Dakar
+    - manutention des vrac solides au Port de Dakar
+    - vrac solides
+    - équipements de manutention des vrac solides
+    - manutention des vrac solides
+    - manutention des vrac solides au Port
+    - équipements  des vrac solides au Port
+    - Equipements des vrac solides
+- intent: port_peche
+  examples: |
+    - Quelles sont les installations disponibles au Port de Pêche?
+    - installations disponibles au Port de Pêche
+    - installations au Port de Pêche
+    - Port de Pêche
+    - Quels sont les services offerts par le Port de Pêche et de commerce?
+    - services offerts par le Port de Pêche et de commerce
+    - Port de Pêche et de commerce
+    - Port de commerce
+    - services offerts par le Port de Pêche
+    - services du le Port de Pêche et de commerce
+    - services du port de commerce
+    - service commercial
+    - peche
+    - pech
+    - peche
+- intent: dedouanement
+  examples: |
+    - Puis je avoir des informations sur le dédouanement de container
+    - dédouanement de container
+    - Puis je avoir des informations sur le dédouanement de container venant d'italie? 
+    - comment effectuer un dédouanement au port
+    - je souhaite avoir des infos pour dédouanement de voiture
+    - Quelles sont les procédures de dédouanement
+    - procédures de dédouanement
+    - dédouanement
+    - dedouanement de marchandise
+    - dédouanement au port de Dakar
+    - Quelles sont les procédures de dédouanement au port de Dakar
+    - procedure de dedouanement au port de dakar
+    - comment faire le dédouanement au port
+    - dédouanement au Port
+    - dedouanement au Port
+- intent: enlevement_marchandise
+  examples: |
+    - Comment faire sortir ses marchandises
+    - Bonjour je voudrais savoir les documents à fournir pour avoir un bon à enlever?
+    - enlevement d'un conteneur au port autonome de Dakar 
+    - comment se déroule l'enlèvement d'un contenur 
+    - Quelles sont les conditions à remplir pour l’enlèvement de marchandise au Port de Dakar?
+    - enlèvement de marchandise au Port de Dakar?
+    - Enlèvement de marchandise
+    - enlevement de marchandise
+    - Enlèvement de marchandise au Port
+    - comment faire pour enlever sa marchandise
+    - Je veux enlever ma marchandise
+    - Qu'est ce que je dois faire pour enlever ma marchandise
+    - conditions à remplir pour l’enlèvement de marchandise
+    - conditions à remplir pour l’enlèvement de marchandise au Port
+    - Quelles sont les conditions à remplir pour l’enlèvement de marchandise
+    - condition a remplir pour enlevement de marchandise
+- intent: out_of_scope_1
+  examples: |
+    - terre pleine
+    - terre pleine disponible
+    - mafé
+    - thiébou djeune
+    - thiébu diene
+    - domadé, sandwich, fatayé
+    - yassa
+    - guinar
+    - poulet
+    - thiébe
+    - mbaxal
+    - ngalakh
+    - mew
+    - Youssou
+    - Aziz Thiaw
+    - Mass massamba
+    - Adama
+    - Abdou khadre
+    - Ndiaye
+    - Marie Ndeye Sene
+    - Kandé
+    - service commercial
+    - commercial
+    - accostage
+- intent: service_marchandise
+  examples: |
+    - Services à la marchandise
+    - Quels sont les services à la marchandise?
+    - Quels sont les service à la marchandise au Port de Dakar?
+    - Services à la marchandise au Port
+    - Services à la marchandise au Port de Dakar
+    - Je veux savoir quels sont les services à la marchandise
+    - Informations sur les services à la marchandise
+    - Informations sur les services à la marchandise au Port
+- intent: stockage_marchandise
+  examples: |
+    - Quelles sont les installations dédiées au stockage des marchandises au Port de Dakar?
+    - installations dédiées au stockage des marchandises
+    - Stockage des marchandises au Port de Dakar?
+    - Stockage des marchandises au Port
+    - Stockage des marchandises
+    - installations dédiées au stockage des marchandises au Port
+    - installations dédiées au stockage
+    - installations dediees au stockage
+    - Comment le Port stock les marchandise
+    - Comment stocker les marchandises au Port
+    - Comment stocker les marchandises au Port de Dakar
+- intent: sejour_marchandise
+  examples: |
+    - Quelle est la durée de séjour des marchandises au Port de Dakar?
+    - Quelle est la durée de séjour des marchandises?
+    - La durée de séjour des marchandises au Port de Dakar?
+    - Quelle est la durée de séjour des marchandises au Port
+    - Durée de séjour des marchandises
+    - duree de sejour des marchandises
+    - duree de sejour
+    - Durée de séjour des marchandises au Port
+    - Duree de sejour des marchandises au Port
+    - Séjour des marchandises
+    - sejour marchandises
+    - Séjour des marchandises au Port
+    - Séjour des marchandises au Port de Dakar
+    - sejour des marchandises au port de dakar
+- intent: redevance_marchandise
+  examples: |
+    - Quelles sont les redevances applicables aux marchandises ?
+    - Quelles sont les redevances applicables aux marchandises au Port de Dakar?
+    - redevances applicables aux marchandises
+    - Redevances applicables
+    - Redevances applicables au Port de Dakar
+    - Redevances
+    - Redevances aux marchandises
+    - redevance marchandise
+    - redevances au Port
+    - redevances au Port autonome de Dakar
+    - Je veux des renseignements sur les redevances aux marchandises
+    - renseignement sur les redevance marchandise
+- intent: securite_surete_environnement
+  examples: |
+    - comment fonctionne la sécurité du port
+    - Sécurité du Port
+    - securite du Port
+    - Sécurité
+    - securite
+    - Sécurité du Port autonome de Dakar
+    - Sûreté du port
+    - surete du Port
+    - Sûreté du Port autonome de Dakar
+    - Environnement
+    - Environnement du Port de Dakar
+    - securité, sureté, environnement
+    - securité, sureté, environnement du Port de Dakar
+    - sureté, environnement du Port de Dakar
+    - securite, surete, environnement du Port
+- intent: surete_securite
+  examples: |
+    - Quelles sont les dispositions de sécurité et de sûreté au Port de Dakar?
+    - securité et sureté du Port
+    - securite et surete du port
+    - dispositions de sécurité et de sûreté
+    - dispositions de sécurité et de sûreté au Port de Dakar?
+    - dispositions de securite et de surete au Port
+    - dispositions de sécurité et de sûreté au Port Autonome de Dakar?
+    - dispositions de sécurité
+    - dispositions de securite
+    - dispositions de sécurité au Port
+    - dispositions de sécurité au Port de Dakar
+    - dispositions de Sûreté
+    - dispositions du Port
+    - securité et sureté de la gare maritime
+    - dispositions du Port Autonome de Dakar
+    - Quels sont les moyens de contrôle sécuritaires à la gare Maritime?
+    - Quel est le dispositif de sécurité au niveau de la Gare maritime?
+    - dispositif de sécurité au niveau de la Gare maritime
+    - Les mesures de sécurité de la gare maritime?
+    - Quel est le matériel de sécurité et de sûreté dispose la Gare Maritime?
+- intent: administration_securite
+  examples: |
+    - Quelles sont les structures, administrations et forces de sécurité qui veillent à la sûreté du domaine portuaire
+    - Quelles sont les structures, administrations et forces de sécurité qui veillent à la sûreté
+    - Quelles sont les structures qui veillent à la sûreté du domaine portuaire
+    - qui veillent à la sûreté et sécurité du domaine portuaire et sécurité
+    - administrations et forces de sécurité
+    - administrations et forces de sécurité qui veillent à la sûreté du domaine portuaire
+    - administrations et forces de sécurité du domaine portuaire
+    - administrations de sécurité du Port
+    - structures, administrations et forces de sécurité
+    - structures de sécurité
+    - structures de securite
+    - forces de sécurité du Port
+    - force de securite du port
+    - Port de sécurité du Port Autonome de Dakar
+- intent: acces_port
+  examples: |
+    - Conditions d’accès au port des personnes et laisser-passé des  véhicules
+    - Quelles sont les conditions d’accès des personnes?
+    - Quelles sont les conditions d’accès des véhicules?
+    - Conditions d’accès au port des personnes
+    - laisser-passé des  véhicules
+    - laisser passe des vehicules
+    - Conditions d’accès au port
+    - Conditions d’accès au port des véhicules
+    - Conditions d’accès
+    - conditions acces au port
+    - Accès des véhicules
+    - Accès des personnes
+    - acces des personnes
+    - laisser-passé
+    - laisser passe 
+    - Accès
+    - acces
+- intent: service_assistance_navire
+  examples: |
+    - Quelles sont les services au Port Autonome de Dakar pour l’assistance aux navires?
+    - Services au Port Autonome de Dakar pour l’assistance aux navires?
+    - services au Port Autonome pour l’assistance aux navires?
+    - services au Port pour l’assistance aux navires?
+    - services pour l’assistance aux navires?
+    - Services disponibles pour assistance aux navires
+    - Les services au navire au Port de Dakar
+    - Les  services aux navires
+    - Services navires
+    - service navire 
+    - Services navires du Port
+    - Services navires au Port Autonome de Dakar
+- intent: qualite_service
+  examples: |
+    - politique de qualité
+    - quelle est la politique de qualite du Port ?
+    - Quelle est la qualité du service de pilotage des navires au Port de Dakar?
+    - qualité du service de pilotage des navires
+    - qualité du service de pilotage
+    - qualité pilotage
+    - qualite de pilotage
+    - qualité du service de pilotage des navires au Port
+    - qualité pilotage au Port
+    - qualite pilotage au Port
+    - qualité pilotage au Port Autonome de Dakar
+    - Quelle est la qualité du service de remorquage au Port de Dakar?
+    - La qualité du service de remorquage
+    - qualite du service de remorquage
+    - La qualité de remorquage
+    - Qualité de remorquage au Port
+    - qualite de remorquage
+    - Qualité de remorquage au Port Autonome
+    - Quelle est qualité de remorquage ?
+- intent: gestion_remorquage
+  examples: |
+    - Quelles sont  les sociétés qui gèrent le remorquage des navires au Port?
+    - Les sociétés qui gèrent le remorquage des navires
+    - Les sociétés de remorquage
+    - Les sociétés de remorquage au Port
+    - Les sociétés de remorquage au Port Autonome de Dakar
+    - Union des Remorqueurs de Dakar
+    - URD
+    - Société de Transit et de Négoce
+    - societe de transite et de negoce
+    - STN
+    - Nombre de sociétés de remorquage au Port
+    - Nombre de societes de remorquage au Port
+    - Nombre de société de remorquage au Port Autonome de Dakar
+- intent: avitaillement_eau_hydro
+  examples: |
+    - Comment s’opère l’avitaillement en eau au port de Dakar?
+    - Comment s’opère l’avitaillement en eau?
+    - comment s opere l avitaillement en eau ?
+    - Avitaillement en eau
+    - avitaillement
+    - ravitaillement sur les navires au port autonome de dakar 
+    - ravitaillement
+    - eau
+    - Comment s’opère l'avitaillement en hydrocarbure au Port de Dakar?
+    - Avitaillement en hydrocarbure au Port de Dakar
+    - Avitaillement en hydrocarbure au Port
+    - hydrocarbure
+    - Avitaillement en hydrocarbure
+    - Avitaillement en hydrocarbure et en eau
+    - hydrocarbure et eau
+    - hydrocarbure et eau au Port de Dakar
+- intent: reparation_navale
+  examples: |
+    - Existe-t-il un atelier de réparation navale au Port de DAKAR?
+    - Existe-t-il un atelier de réparation navale
+    - atelier de reparation navale au Port de DAKAR ?
+    - atelier de réparation navale au Port de DAKAR
+    - réparation navale au Port de DAKAR
+    - réparation navale
+    - réparation navale du Port
+    - Quels sont les équipements de réparation navale?
+    - Les équipements de réparation navale
+    - Dakarnav
+    - Des explications sur Dakarnave
+    - Des informations sur Dakarnave
+    - société de réparation navale
+    - reparation navale
+    - elevateur bateau
+    - élévateur à bateau
+    - élévateur à bateau  au Port de Dakar
+- intent: facture_domaine
+  examples: |
+    - Comment l’occupation du domaine portuaire est-elle facturée?
+    - facturation du domaine portuaire
+    - facturation domaniale du Port
+    - Période de facturation
+    - Période de facturation du domaine portuaire
+    - Type de facturation du domaine
+    - type de facturation domaniale du Port
+    - facturation des boutiques
+    - facturation des restos
+    - facturation des restaurants
+    - facturation des gargotes
+    - facturation anuelle
+    - facturation des boutiques au port
+- intent: surface_allouee
+  examples: |
+    - Est ce possible d’avoir des surfaces allouées pour une longue durée bien déterminée?
+    - Est ce possible d’avoir des surfaces allouées au Port?
+    - des surfaces allouées pour une longue durée bien déterminée?
+    - surfaces allouées
+    - surface allouee
+    - Terrains et installation de stockage
+    - installation de stockage
+    - installation à l'extérieur du Port
+    - terrains
+    - terrain
+    - Peut on avoir des surfaces allouées au Port
+    - surfaces allouees au Port
+- intent: gare_maritime
+  examples: |
+    - les tarifs pour les résidants sénégalais
+    - le prix du billet pour les senegalais
+    - Le prix du billet pour un senegalais
+    - Comment se rendre à la Gare Maritime?
+    - se rendre à la Gare Maritime
+    - Je veux me rendre à la Gare Maritime de Dakar
+    - Quelle est l'adresse de la Gare Maritime de Dakar?
+    - l'adresse de la Gare Maritime de Dakar?
+    - l'adresse de la Gare Maritime
+    - informations sur la gare maritime
+    - gare maritime
+    - horaires de la traversée
+    - Dimanche et jours fériers
+    - Je veux venir à la gare maritime
+    - Où se trouve la gare maritime?
+    - ou se situe la gare maritime
+    - situation de la gare maritime
+    - gare maritime de Dakar   
+- intent: ligne_maritime_goree
+  examples: |
+    - Bonjour... Je voudrais savoir le prix de la traversée est le même pour les sénégalais et les étrangers africains.. J ai une amie de nationalité malienne que j aimerais amener à Gorée demain et je me demandais combien ce serait pour elle.
+    - Bonjour, comment vous allez est ce que la liaison maritime dakar goree est fonctionnelle merci
+    - on voudrait faire avec la famille une excursion sur Goree 
+    - Y a-t-il des quotas de personnes journalieres pour aller a l'île de goré
+    - combien de personnes par jour peuvent se rendre à gorée 
+    - pourriez-vous m'informer des départs de dakar à goré 
+    - moi je suis sénégal et j'ai 19 ans et je veux savoir mon tarif de traver pour aller à gorée
+    - quelles sont vos navettes
+    - je prévois de faire la traversée demain 
+    - le tarif pour enfant
+    - les bateaux sont ouverts aujourd'hui
+    - comment faire pour avoir un billet à 7h.
+    - j'ai besoin des informations pour la traversée 
+    - je voudrais partir sur goree est ce qu'il ya des restrictions pour la traversée
+    - les tarifs
+    - prix
+    - prix aller et retour dakar gorée
+    - le prix de l'aller retour
+    - quel est le prix de la traversée pour un adulte
+    - Est-ce que la LMDG est toujours en service
+    - les liaisons maritimes dakar gorée seront elles effectives pour le mercredi
+    - type de billets
+    - billet pour les eleves
+    - prix du billet pour les Non résident Afrique 
+    - Non résident Senegal
+    - non resident Sénégal
+    - Montant de la traversée
+    - la liaison est elle ouverte
+    - Nous voulons nous rendre à île de goree et aimerions savoir les horaires et le prix de la traversée
+    - il ya t'il des billets disponible pour un depart de 
+    - Les lignes maritimes disponibles
+    - Tarifs de la traversée
+    - quelles sont les lignes maritimes disponibles à la gare maritime?
+    - Voyager à l'intérieur du Sénégal par voie maritime?
+    - Visiter l'île de Gorée?
+    - visiter l ile de goree
+    - possible de partir à gorée avec des élèves 
+    - je veux partir à goree avec mes élèves
+    - Je veux partir à gorée avec des eleves
+    - La liaison est elle ouverte
+    - la liaison maritime Dakar Goree est elle ouverte
+    - y a t-il des traversées le dimanche
+    - Comment allez à Gorée?
+    - Je veux allez à Gorée, comment faire?
+    - Allez à Gorée par voie maritime
+    - allez a goree par voie maritime
+    - Nous voulons allez à Gorée
+    - Lignes maritime Dakar Gorée
+    - ligne maritime dakar goree
+    - bateau Dakar Gorée
+    - Voyage Dakar Gorée
+    - Tarif Dakar-Gorée?
+    - tarif dakar goree
+    - tarif dakar goree
+    - reservation dakar goree 
+    - Réservation Dakar Gorée
+    - Allez a goree
+    - ticket dakar goree
+    - Planning de rotation pour Gorée?
+    - comment avoir un ticket Dakar Goree
+    - bateaux pour Gorée
+    - bateau pour allez à Gorée
+    - liaison dakar goree
+    - liaison dakar gorée
+    - Le prix du billet Dakar-Gorée
+    - Quel est le prix du ticket Dakar-Gorée
+    - LMDG
+    - avoir un ticket dakar goree
+    - horaire de la chaloupe
+    - heure de depart de la chaloupe
+    - Coumba Castel
+    - Beer
+    - Coumba Lamb
+    - Chaloupe 
+    - nombre de Chaloupe de la LMDG
+    - nombre de Chaloupe de la gare maritime
+- intent: ligne_maritime_zig
+  examples: |
+    - Je voudrais voyager
+    - ya des départs pour la casamance pour le bateau
+    - je veux reserver
+    - je veux réserver
+    - comment faire pour réserver
+    - jours de vente des billets
+    - comment acheter un billet
+    - numero service dakar casamence
+    - avoir un billet de bateau
+    - je cherche un billet pour le vendredi
+    - reservation en logne dakar ziguinchor
+    - les tarifs des moins de 17 ans dakar ziguinchor pour les 
+    - les heures de depart Dakar Ziguinchor
+    - Les horaires de ziguinchor dakar
+    - les tarifs de ziguinchor dakar
+    - est ce que la liaison Dakar Ziguinchor est toujours fonctionnelle?
+    - quel bateau est prevu pour la date du
+    - place disponible pour le bateau aline sitoe diatta
+    - horaire et tarif de aline sitoe diatta
+    - reserver une place pour le samedi
+    - j'aimerais reserver une place
+    - Comment allez à Ziguinchor Par voie maritime
+    - bignona
+    - je veux aller a bignona
+    - Lignes maritime Dakar Ziguinchor
+    - les jour ou le bateau quitte Ziguinchor por Dakar
+    - bateau Dakar Ziguinchor
+    - Est ce que les bateaux en direction de ziguinchor seront dispo la semaine prochaine
+    - disponibilite des bateaux pour Ziguinchor
+    - reservation de billet liaison dakar ziguinchor
+    - réservation de billet Dakar-Zig
+    - Voyage Dakar Ziguinchor
+    - bateau pour aller en casamence
+    - Je veux aller en casamence par bateau
+    - Quelles sont les lignes maritimes pour aller en casamence
+    - Dakar-Ziguinchor
+    - Réserver un cabinet Dakar Ziguinchor
+    - reserver 1 cabinet sur le bateau dakar ziguinchor 
+    - Dk-Zig
+    - Voyage Dk Zig
+    - Les bateaux Dakar-Ziguinchor?
+    - Quelle est la flotte de COSAMA?
+    - Jours de débarquement pour Ziguinchor?
+    - Document nécessaires pour voyager sur Ziguinchor?
+    - Contacts Ligne Maritime Dakar Ziguinchor?
+    - Information sur le fret Dakar-Ziguinchor?
+    - Planning de voyage pour Ziguinchor?
+    - Tarif Dakar-Ziguinchor ?
+    - tarif dakar Ziguinchor
+    - aller en casamence par bateau
+    - Les bateaux pour se rendre à Ziguinchor?
+    - Le prix du ticket Dakar-Ziguinchor
+    - billet Dakar-Zig
+    - Comment faire une reservation
+    - reservation dakar Ziguinchor
+    - COSAMA
+- intent: capacite_accueil_gare_maritime
+  examples: |
+    - Capacité d'accueil de la Gare Maritime Internationale de Dakar
+    - capacite accueil de la gare maritime
+    - Capacité d'accueil de la Gare Maritime
+    - Quelle est la capacité d'accueil de la gare maritime
+    - Condition d'accueil à la Gare Maritime?
+    - accueil de la Gare maritime
+    - Prise en charge des personnes âgées?
+    - Billetterie Dakar Ziguinchor?
+    - Billetterie Dakar Gorée?
+    - Billetterie
+    - accueil de la gare
+    - accueil de la gare maritime
+    - Billetterie de la gare maritime
+- intent: service_offert_aux_passager
+  examples: |
+    - Services offerts aux passagers
+    - quels sont les services offerts aux passagers?
+    - Services annexes à la Gare?
+    - wifi
+    - disponibité d'un wifi
+    - restaurant ?
+    - Restaurant de la gare
+    - restaurant de la gare maritime
+    - cafétéria?
+    - cafeteriat
+    - souvenir?
+    - Guichet  de banque ?
+    - transfert d'argent?
+    - Où je peux acheter un cadeau à la Gare Maritime?
+    - Stationnement à la Gare Maritime?
+    - stationnement gare maritime
+    - Se garer à la Gare Maritime?
+    - Parking à la Gare Maritime?
+    - parking a la gare maritime
+    - avez vous un parking
+    - parking
+- intent: service_offert_au_public
+  examples: |
+    - Services offerts au public
+    - quel est le Services offerts au public?
+    - Espaces publicitaires à la Gare Maritime?
+    - Espaces publicitaires a la Gare Maritime ?
+    - Faire une publicité au niveau de la Gare Maritime?
+    - Organiser une manifestation à la Gare Maritime?
+    - Organiser une cérémonie à la Gare Maritime?
+    - Cocktail à la Gare Maritime?
+    - Salle de manifestation à la Gare Maritime?
+    - Exposition d'arts à la Gare Maritime?
+    - exposition d arts a la gare maritime 
+    - Organiser une conférence à la Gare Maritime?
+    - publicité à la Gare maritime
+    - publicite a la gare maritime 
+    - tableau d' arts
+- intent: certification_gare_maritime
+  examples: |
+    - traitement des déchets
+    - avez vous un service de traitement des déchets
+    - service de traitement des dechets
+    - comment le port de dakar gére la crise sanitaire
+    - comment vous organisez vous avec la pandemie
+    - Comment vous organisez vous avec le covid 19
+    - Comment vous Organisez vous avec le covid
+    - quelle est la situation pour le port avec covid
+    - Certification Qualité Sécurité Environnement?
+    - Quels sont les activités certifiés à la Gare Maritime?
+    - activités certifiés à la Gare Maritime
+    - activites certifies a la gare maritime
+    - Quels sont les certificats obtenus par la Gare maritime?
+    - Quel organisme à certifié la Gare Maritime?
+    - Système de Management Qualité à la Gare Maritime
+    - Management Qualité à la Gare Maritime
+    - Qualité de service de la gare maritime
+    - Satisfaction clients de la Gare Maritime?
+    - comment améliorer la satisfaction des clients au niveau de la Gare Maritime?
+    - Depuis quand est ce que la Gare Maritime est certifiée?
+    - Tri de déchets à la Gare maritime ?
+    - Gestion des déchets à la Gare Maritime?
+    - Gestion de la COVID à la Gare?
+    - COVID 19 à la Gare Maritime?
+    - Quelles sont les mesures barrières contre la COVID ?
+    - Informations et sensibilisations sur la COVID?
